@@ -70,7 +70,7 @@ app.get('/new/*', (req, res) => {
         //return the new link
         res.send({
           original_url: newUrl.original_url,
-          short_url: `http://localhost:5000/${newUrl.short_url}`
+          short_url: `https://warm-island-17411.herokuapp.com/${newUrl.short_url}`
         });
       })
       .catch((error) => {
